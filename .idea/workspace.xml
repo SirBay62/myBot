@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717de310-8955-442d-a7eb-b93a1e9e25f8" name="Changes" comment="Добавлен main">
+    <list default="true" id="717de310-8955-442d-a7eb-b93a1e9e25f8" name="Changes" comment="Добавлен Диспетчер и Бот">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -64,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736947161485</updated>
-      <workItem from="1736947162802" duration="1425000" />
+      <workItem from="1736947162802" duration="2340000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -90,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736948347116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавлен Диспетчер и Бот">
+      <option name="closed" value="true" />
+      <created>1736948836454</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736948836454</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +107,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <MESSAGE value="Добавлен main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен main" />
+    <MESSAGE value="Добавлен Диспетчер и Бот" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен Диспетчер и Бот" />
   </component>
 </project>
