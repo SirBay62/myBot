@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="717de310-8955-442d-a7eb-b93a1e9e25f8" name="Changes" comment="Добавлен бот с токеном">
+    <list default="true" id="717de310-8955-442d-a7eb-b93a1e9e25f8" name="Changes" comment="1. Бот работает&#10;2. Добавлены параметры Бота для дальнейшей работы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736947161485</updated>
       <workItem from="1736947162802" duration="2786000" />
-      <workItem from="1737007533324" duration="1798000" />
+      <workItem from="1737007533324" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -120,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736949756457</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1. Бот работает&#10;2. Добавлены параметры Бота для дальнейшей работы">
+      <option name="closed" value="true" />
+      <created>1737009719443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737009719443</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,9 +139,10 @@
     <MESSAGE value="Добавлен main" />
     <MESSAGE value="Добавлен Диспетчер и Бот" />
     <MESSAGE value="Добавлен бот с токеном" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен бот с токеном" />
+    <MESSAGE value="1. Бот работает&#10;2. Добавлены параметры Бота для дальнейшей работы" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Бот работает&#10;2. Добавлены параметры Бота для дальнейшей работы" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/myBot$main.coverage" NAME="main Coverage Results" MODIFIED="1737009344725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/myBot$main.coverage" NAME="main Coverage Results" MODIFIED="1737021398984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
