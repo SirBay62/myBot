@@ -1,4 +1,4 @@
-from aiogram.types import Message
+from aiogram.types import Message, CallbackQuery
 from aiogram.filters import Command, CommandStart
 from aiogram import F, Router
 
@@ -17,7 +17,19 @@ async def cmd_start(message: Message):
 async def on_name(message: Message):
     await message.answer('Меня зовут AlexBot')
 
+# обработчик для инЛайн клавиатуры для Каталога
+@router.message((F.text)=='Каталог')
+async def catalog(message: Message):
+    await message.answer('Выберите категорию товара', reply_markup=kb.catlog)
+
+# обработчик выбора категории футболки
+@router.callback_query(F.data == 't-shirt')
+async def t_shirt(callback: CallbackQuery):
+    await callback.message.answer('Вы выбрали категории футболки')
+
 # обработчик всего остального
 @router.message(F.text)
 async def on_other(message: Message):
     await message.answer('Неизвестная команда')
+
+
