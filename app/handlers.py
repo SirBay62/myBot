@@ -2,12 +2,14 @@ from aiogram.types import Message
 from aiogram.filters import Command, CommandStart
 from aiogram import F, Router
 
+import app.keyboards as kb
+
 router = Router()
 
 # обработчик команды "старт"
 @router.message(CommandStart())
 async def cmd_start(message: Message):
-    await message.reply("Привет! Давай поработаем.")
+    await message.answer("Привет! Давай поработаем.", reply_markup=kb.main)
 
 # обработчик для ключевого слова и команды "имя"
 @router.message(Command("имя"))
