@@ -25,7 +25,12 @@ async def catalog(message: Message):
 # обработчик выбора категории футболки
 @router.callback_query(F.data == 't-shirt')
 async def t_shirt(callback: CallbackQuery):
+    await callback.answer('Вы выбрали категорию')
     await callback.message.answer('Вы выбрали категории футболки')
+
+@router.message(Command('register'))
+async def register(message: Message):
+    await message.answer('Введите ваше имя')
 
 # обработчик всего остального
 @router.message(F.text)
